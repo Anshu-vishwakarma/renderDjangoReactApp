@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-e@o6a4biele95c9x1xga!t&qs32ah#sem&_k3a(^)!&!mwrbj*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app']
 
 
 
@@ -142,7 +142,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "http://localhost:3000","https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app"
 ]
 
 CORS_ALLOW_METHODS = (
