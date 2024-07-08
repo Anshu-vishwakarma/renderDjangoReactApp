@@ -27,6 +27,32 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'renderdjangoreactapp.onrender.com','https://render-django-react-app-git-main-ashus-projects-5d9953dc.vercel.app','render-django-react-app-git-main-ashus-projects-5d9953dc.vercel.app','https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app','render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app']
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "https://render-django-react-app-git-main-ashus-projects-5d9953dc.vercel.app",
+    "https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app",
+]
+
+CORS_ALLOW_METHODS = (
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT",
+)
+
+CORS_ALLOW_HEADERS = (
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+)
 
 # Application definition
 
