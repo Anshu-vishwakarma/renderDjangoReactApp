@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-e@o6a4biele95c9x1xga!t&qs32ah#sem&_k3a(^)!&!mwrbj*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'renderdjangoreactapp.onrender.com','https://render-django-react-app.vercel.app','https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'renderdjangoreactapp.onrender.com','https://render-django-react-app-git-main-ashus-projects-5d9953dc.vercel.app','render-django-react-app-git-main-ashus-projects-5d9953dc.vercel.app','https://render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app','render-django-react-9bpy4spoi-ashus-projects-5d9953dc.vercel.app']
 
 
 # Application definition
