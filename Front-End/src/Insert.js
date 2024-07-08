@@ -14,9 +14,9 @@ const Insert=()=>
 
        }
 
-       const handleSumit=()=>{
-              let api=`http://127.0.0.1:8000/Employ/`;
-              axios.post(api, input).then((res)=>{
+       const handleSumit=async()=>{
+              let api=`https://renderdjangoreactapp.onrender.com/Employ/`;
+             await axios.post(api, input).then((res)=>{
                      alert("Data save !!")
                      
               })
